@@ -1,0 +1,74 @@
+Selenium Video Tatorial : 
+https://www.youtube.com/user/MrBantu50/playlists
+https://www.youtube.com/user/GlassBoxT/playlists
+https://www.youtube.com/user/naveenanimation20/playlists
+ 
+
+
+
+Locators 
+
+1. Every numeric ID may vary on every refresh- check
+2. Every object may not have ID, className Or Name- Xpath and CSS is preferred.
+3. Confirm the link object with anchor "a" tab
+4. Classes should not have spaces - compound classes can not be accetped.
+5. Multiple values - selenium identifies the first on - Scans from top left i.e facebook email having name= "imputtext" AND facebook password 
+having passname= "inputtext" > then selenium take first value i.e emailname so scaning should from top left.
+6. Double quotes inside double quotes are not accepted. i.e (" "" "))
+7. xpath/CSS can be define in n number of ways.
+8. when xpath starts with html - not reliable - switch browser to get another one.
+9. ther is no direct way to get CSS n chrome. You will fine it in tool bar.
+10. $("")- for CSS , $x("") or xpath
+
+===================
+
+
+<input value="log In" tabindex="4" name="abc" data-testid="royal_login_button type="submit">
+input = TabName
+Atrribute = Class
+value= inputtext
+
+name= attribute
+abc = value
+
+Xpath Syntax : //tagName[@attribute='value']
+               //input[@name='abc'] == this is xpath
+
+CSS syntax: tagName[attribute='vlaue'] == without back slash //
+            input[name='abc']
+tagName#id = CSS ==> driver.fintElement(by.cssSelector("input#password")); ==> tagName#id = "input#password"
+input#username
+tabName.classname = CSS
+
+
+===================
+<input name="username123">
+Regular expression xpath syntax : 
+//tabName[contains(@attribute, 'value')] = xpath syntax
+//input[contains(@name, 'username')]
+===================
+<input name="username123">
+Regular expressoin CSS syntax : 
+//tabName[attribute*='value')] = xpath syntax
+input[name*='username')]
+===================
+
+Relative path : does not depent on parent nodes. means direct hitting/jumping on related node.
+Absolute path : parent (Top) to child (Bottom) nodes traversing. 
+
+====================
+
+Handles dropdowns
+
+spicejet.com ==> alert boxes practise site.
+makemytrip.com
+To check Radion button : http://echoecho.com/htmlforms10.htm
+
+
+
+
+
+
+
+ 
+

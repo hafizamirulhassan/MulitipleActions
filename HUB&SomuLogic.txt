@@ -1,0 +1,22 @@
+SumoLogic
+
+https://service.sumologic.com/ui/#/livetail/a8f65719_eb54_f0e4_d43b_be66510c942e
+
+UserName : core.it@qs.com
+Password : 2thY=077M0KBYyf3
+
+HUB
+
+https://qs-hub-qa-prod.qs.com/#/profiles/topuniversities/publish
+
+UserName : hafizamir@zeptosystems.com
+Password : Hafiz@qs123
+
+
+Outreach : http://dev.outreach.qs.com/admin/settings/candidates
+
+UserName: hafizamir@zeptosystems.com
+Password : Amir123!
+
+
+To check server : https://dev.topuniversities.com/admin/config/system/qs-feeds
